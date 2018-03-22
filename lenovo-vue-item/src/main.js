@@ -12,7 +12,6 @@ Vue.use(Router);
 Vue.use(VueAxios, axios);
 Vue.config.silent = false;
 Vue.config.devtools = true;
-  var a=2;
 Vue.prototype.HttpClient = HttpClient;
 window.HttpClient = HttpClient;
 // new Vue({
